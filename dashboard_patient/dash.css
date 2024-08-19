@@ -1,0 +1,174 @@
+        body {
+            background-image: url(../images/view_eve.jpg);
+            font-family: 'Poppins', sans-serif;
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-aaround;
+            align-items: center;
+            height: 100px;
+            background-color: #800000;
+        }
+
+        nav .left {
+            justify-content: left;
+            margin-left: 20px;
+            float: left;
+        }
+
+
+        nav .right {
+            justify-content: right;
+            margin-left: 35%;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li h1 {
+            margin-left: 1px;
+            margin-top: 30px;
+            align-items: center;
+            color: white;
+
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: #580816;
+            text-decoration: underline;
+
+        }
+
+        nav ul li img {
+            margin-bottom: 0;
+
+        }
+
+
+        .main-cards {
+            color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 80px;
+            margin: 20px 0;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 50px;
+
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 25px;
+            border-radius: 20px;
+
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            text-decoration: underline;
+        }
+
+        .card:first-child {
+            background-color: #800000;
+        }
+
+        .card:nth-child(2) {
+            background-color: #800000;
+        }
+
+        .card:nth-child(3) {
+            background-color: #800000;
+        }
+
+        .card:nth-child(4) {
+            background-color: #800000;
+        }
+
+        .card:nth-child(5) {
+            background-color: #800000;
+        }
+
+        .card:nth-child(6) {
+            background-color: #800000;
+        }
+
+        .icon {
+            color: white;
+        }
+
+        .direct {
+            color: white;
+        }
+
+        .card:hover {
+            background: #680819;
+
+        }
+
+
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #800000;
+            color: white;
+            text-align: center;
+        }
+
+
+
+        @media screen and (max-width: 1400px) {
+
+            .box {
+                flex-direction: column;
+
+            }
+
+            .second .vertical {
+                height: unset;
+            }
+
+            .vertical-title,
+            .vertical-desc {
+                left: 45px;
+
+            }
+
+            .second .box {
+                width: 50vw;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+
+
+
+
+        }

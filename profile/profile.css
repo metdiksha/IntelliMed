@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-aaround;
+    align-items: center;
+    height: 90px;
+    background-color: #800000;
+}
+
+img {
+    display: block;    
+    width: fit-content;
+    height: fit-content;
+  }
+nav .left {
+    justify-content: left;
+    margin-left: 20px;
+    float: left;
+}
+
+
+nav .right {
+    justify-content: right;
+    margin-left: 35%;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li h1 {
+    margin-left: 1px;
+    margin-top: 30px;
+    align-items: center;
+    color: white;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #580816;
+    text-decoration: underline;
+
+}
+
+nav ul li img {
+    margin-bottom: 0;
+
+}
+
+.profile-summary {
+    background-color: #800000;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.health-info-table {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #800000;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+th {
+    background-color: #660000;
+}
+
+td {
+    background-color: #800000;
+}
+
+tr:hover td {
+    background-color: #990000;
+    transition: background-color 0.3s;
+}
+.footer {
+    background-color: #800000;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
