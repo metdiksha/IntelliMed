@@ -1,0 +1,196 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-aaround;
+    align-items: center;
+    height: 100px;
+    background-color: #800000;
+}
+
+nav .left {
+    justify-content: left;
+    margin-left: 20px;
+    float: left;
+}
+
+
+nav .right {
+    justify-content: right;
+    margin-left: 35%;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li h1 {
+    margin-left: 1px;
+    margin-top: 30px;
+    align-items: center;
+    color: white;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #580816;
+    text-decoration: underline;
+
+}
+
+nav ul li img {
+    margin-bottom: 0;
+
+}
+
+
+/* Container for the confirmation details */
+.confirmation-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Styling for the heading */
+.confirmation-container h1 {
+    color: #800000; /* IntelliMed maroon */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Success message styling */
+.confirmation-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Styling for the summary table */
+.confirmation-container table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.confirmation-container table, th, td {
+    border: 1px solid #ddd;
+}
+
+.confirmation-container th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.confirmation-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Button styling */
+.confirmation-container a.button {
+    display: inline-block;
+    background-color: #800000; /* IntelliMed maroon */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.confirmation-container a.button:hover {
+    background-color: #a00000;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #800000;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #800000;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .box {
+        flex-direction: column;
+
+    }
+
+    .second .vertical {
+        height: unset;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+        left: 45px;
+
+    }
+
+    .second .box {
+        width: 50vw;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+
+
+
+
+}

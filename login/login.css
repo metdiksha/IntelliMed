@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url(../images/view_M.jpg);
+    overflow: hidden;
 }
 
 .login-container {
