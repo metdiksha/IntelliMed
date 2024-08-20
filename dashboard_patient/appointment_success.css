@@ -1,12 +1,10 @@
-/* Reset some basic elements */
 body, h1, h2, h3, p, ul, ol {
     margin: 0;
     padding: 0;
 }
 
-/* Global body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -20,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-aaround;
     align-items: center;
-    height: 100px;
+    height: 90px;
     background-color: #800000;
 }
 
@@ -72,8 +70,6 @@ nav ul li img {
 
 }
 
-
-/* Container for the confirmation details */
 .confirmation-container {
     background-color: #ffffff;
     padding: 30px;
@@ -85,21 +81,18 @@ nav ul li img {
     text-align: center;
 }
 
-/* Styling for the heading */
 .confirmation-container h1 {
-    color: #800000; /* IntelliMed maroon */
+    color: #800000; 
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
 
-/* Success message styling */
 .confirmation-container p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #555;
 }
 
-/* Styling for the summary table */
 .confirmation-container table {
     width: 100%;
     margin-bottom: 20px;
@@ -120,10 +113,9 @@ nav ul li img {
     font-weight: bold;
 }
 
-/* Button styling */
 .confirmation-container a.button {
     display: inline-block;
-    background-color: #800000; /* IntelliMed maroon */
+    background-color: #800000; 
     color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
@@ -135,7 +127,6 @@ nav ul li img {
     background-color: #a00000;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 10px;
@@ -149,7 +140,6 @@ footer {
 footer p {
     margin: 0;
 }
-
 
 
 .footer {
