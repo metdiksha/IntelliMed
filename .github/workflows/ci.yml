@@ -1,4 +1,4 @@
-vname: History Cards
+name: IntelliMed
 
 on:
   push:
