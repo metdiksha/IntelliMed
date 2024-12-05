@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescriptions - IntelliMed</title>
+    <link rel="stylesheet" href="disp_pres.css">
+</head>
+
+<body>
+    <div class="prescription-container">
+        <h1>Prescriptions</h1>
+        <form class="prescriptionForm">
+            <div class="form-group">
+                <label for="patientName">Patient Name:</label>
+                <input type="text" id="patientName" name="patientName" placeholder="Enter patient name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="medications">Medications:</label>
+                <textarea id="medications" name="medications" placeholder="Enter medications" rows="4"
+                    required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" name="instructions" placeholder="Enter instructions" rows="3"
+                    required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="dateIssued">Date Issued:</label>
+                <input type="date" id="dateIssued" name="dateIssued" required>
+            </div>
+
+            <div class="form-group">
+                <label for="doctorName">E-Signature:</label>
+                <input type="text" id="doctorName" name="doctorName" placeholder="Doctor's E-Signature" required>
+            </div>
+
+            <button type="submit">Prescribe</button>
+        </form>
+    </div>
+</body>
+<script>
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('dateIssued').setAttribute('min', today);
+</script>
+
+</html>

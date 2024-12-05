@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/view_M.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.prescription-view-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Adjust the width as needed */
+    text-align: left;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.prescription-detail {
+    margin-bottom: 15px;
+}
+
+.prescription-detail h2 {
+    font-size: 18px;
+    color: #800000;
+    margin-bottom: 5px;
+}
+
+.prescription-detail p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #700000;
+}

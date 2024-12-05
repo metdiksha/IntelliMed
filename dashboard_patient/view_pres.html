@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Prescription - IntelliMed</title>
+    <link rel="stylesheet" href="view_pres.css">
+</head>
+
+<body>
+    <div class="prescription-view-container">
+        <h1>Prescription Details</h1>
+
+        <div class="prescription-detail">
+            <h2>Patient Name:</h2>
+            <p id="patientName">Diksha Jain</p>
+        </div>
+
+        <div class="prescription-detail">
+            <h2>Doctor Name:</h2>
+            <p id="doctorName">Dr. Ritu</p>
+        </div>
+
+        <div class="prescription-detail">
+            <h2>Medications:</h2>
+            <p id="medications">
+                - Cough Syprup - Take as much as you want<br>
+                - Dolo 200mg - Take as much as you want
+            </p>
+        </div>
+
+        <div class="prescription-detail">
+            <h2>Instructions:</h2>
+            <p id="instructions">Take medications with food. Do not skip doses. Do not skip classes</p>
+        </div>
+
+        <div class="prescription-detail">
+            <h2>Date Issued:</h2>
+            <p id="dateIssued">July 20, 2024</p>
+        </div>
+
+        <button onclick="window.print()">Print Prescription</button>
+    </div>
+</body>
+
+</html>
