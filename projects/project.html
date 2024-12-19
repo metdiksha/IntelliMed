@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>IntelliMed</title>
+    <meta name="title" content="IntelliMed">
+    <meta name="description" content="TIET Health Centre">
+
+   
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="project.css">
+
+   
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <ul class="intellimed">
+                    <li><img src="../images/IntelliMed_logo.png" width="64" height="32" alt="home"></li>
+                    <li><b>
+                            <p>IntelliMed</p>
+                        </b></li>
+                </ul>
+            </a>
+
+
+
+            <nav class="navbar" data-navbar>
+
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a class="nav-link" href="#home"> Home </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="#about"> About </a>
+                    </li>
+
+                    <li>
+                        <a href="./projects/project.html"> Our Projects </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="#contact"> Contact </a>
+                    </li>
+
+                    <li>
+                        <div class="drop_container">
+                            <button class="drop_btn">Login</button>
+                            <div class="menuList">
+                                <a class="links" href="./login/login.html">Login - Patient</a>
+                                <a class="links" href="https://hospital-management-b5cbd.web.app/">Login - Staff</a>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:health.centre@thapar.edu" class="contact-link">health.centre@thapar.edu</a>
+
+                    <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.thapar.edu/" target="_blank" class="social-link">
+                            <img src="../images/logo_ti.png" alt="tiet icon" style="width: 32px; height: 32px;" />
+                        </a>
+                    </li>
+</ul>    
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section id="home" class="section hero" aria-label="home">
+                <div class="heading"><h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+                    AI/ML in Medicine 
+                </h1></div>
+                
+
+
+                <div class="container">
+
+                    <figure class="hero-banner">
+                        <img src="../images/AI-ML.jpg" width="560" height="540" alt="AI@IntelliMed">
+                    </figure>
+
+                    <div class="hero-content">
+
+                        
+
+                        <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+
+                           IntelliMed introduces cutting-edge machine learning (ML) features designed to 
+assist in healthcare management. 
+
+
+                        </p>
+
+                        <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                            <a href="#" class="btn btn-primary">See our future plans</a>
+
+                            <a href="#" class="btn btn-secondary">Contact Us</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+           
+
+
+
+
+
+            <!-- 
+        - #PROJECT
+      -->
+
+            <section id="project" class="section project" aria-labelledby="project-label">
+                <div class="container">
+                    <div class="disclaimer">
+                        <h1>Disclaimer:</h1>
+                    <p><b> It is important to note that these tools 
+                        are intended solely for informational purposes and are not meant to diagnose or prescribe treatment. 
+                        The final diagnosis and treatment plan should always be made by a qualified healthcare 
+                        professional. </b></p>
+                        <br>
+                    </div>
+
+                    <div class="title-wrapper" data-reveal="top">
+                        
+
+                        <div>
+                            <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+                            <p class="section-text">
+                                Check out some of our latest ML based healthcare projects.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-secondary">See All Projects</a>
+
+                    </div>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                                <div class="card-content" data-reveal="left">
+
+                                    <p class="card-tag" style="color: #a07cc5">PyTorch, Torchvision, CNN</p>
+
+                                    <h3 class="h3 card-title">Fracture Detection</h3>
+
+                                    <p class="card-text">
+                                        A Fracture Detection System using deep learning to detect fractures from medical
+                                        X-ray images.
+                                    </p>
+
+                                    <a href="http://127.0.0.1:5002/" target="_blank" class="btn-text"
+                                        style="color: #a07cc5">
+                                        <span class="span">See Project</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="../images/fracture_detection.png" width="650" height="370" loading="lazy"
+                                        alt="Web Design" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card project-card-2" style="background-color: #f8f5fb">
+
+                                <div class="card-content" data-reveal="left">
+
+                                    <p class="card-tag" style="color: #a07cc5">PyTorch, Torchvision, CNN</p>
+
+                                    <h3 class="h3 card-title">How it works?</h3>
+
+                                    <p class="card-text">
+                                        A Fracture Detection System using deep learning to detect fractures from medical X-ray images. This project leverages the power of PyTorch and Torchvision to build and train a Convolutional Neural Network (CNN) model.
+
+
+                                    </p>
+
+                                    <a href="http://127.0.0.1:5002/" target="_blank" class="btn-text"
+                                        style="color: #a07cc5">
+                                        <span class="span">See Project</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="../images/fracture_detected.jpg" width="650" height="370" loading="lazy"
+                                        alt="Web Design" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+
+                        
+                    </ul>
+
+                </div>
+            </section>
+            <section id="timing" class="section timing" aria-label="timing">
+                <div class="container">
+
+                    <div class="wrapper">
+
+                        <div data-reveal="left">
+                            <h2 class="h2 section-title">Future Plans</h2>
+                            <p>
+                              
+                            <ol>
+                               
+                                <li> Telemedicine Integration : 
+                                    Integrate video consultations and secure messaging for remote healthcare services, enhancing patient 
+                                    access, especially for those in remote or underserved areas. </li>
+                                <li>Symptom Prediction & Medicine Recommendation : Improve machine learning models to provide personalized health predictions and medicine 
+                                    recommendations based on real-time patient data, enhancing decision-making for healthcare providers.  </li>
+                            </ol>
+
+
+
+                            </p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </section>
+
+            
+
+
+
+
+
+            <!-- 
+        - #CONTACT
+      -->
+
+            <section id="contact" class="section contact" aria-label="contact">
+                <div class="container">
+
+                    <div class="contact-card">
+
+                        <div class="contact-content" data-reveal="left">
+
+                            <div class="card-icon">
+                                <img src="../images/IntelliMed_logo.png" width="128" height="64" loading="lazy"
+                                    alt="envelop icon">
+                            </div>
+
+                            <h2 class="h2 section-title">Contact Us</h2>
+
+
+                            <p class="section-text">
+                                Have any questions? Reach
+                                out to us from
+                                this contact form and we will get back to you shortly.
+
+                            </p>
+                            <br>
+                            <p> Feedback and suggestions are welcome!</p>
+                            
+
+                        </div>
+
+                        <form action="" class="contact-form" data-reveal="right">
+
+                            <div class="input-wrapper">
+                                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                                <input type="email" name="email_address" placeholder="Email *" required
+                                    class="input-field">
+                            </div>
+
+                            <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+                            <button type="submit" class="btn btn-secondary">Send message</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+        
+        <div class="container">
+
+            <p class="copyright">
+                © CPG 89 All rights reserved.
+            </p>
+
+            <ul class="social-list">
+
+                <li>
+                    <a href="https://www.thapar.edu/" target="_blank" class="social-link">
+                        <img src="../images/logo_ti.png" alt="tiet icon" style="width: 32px; height: 32px;" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank" class="social-link">
+                        <img src="../images/IntelliMed_logo.png" alt="intellimed icon"
+                            style="width: 44px; height: 44px;" />
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+
+
+    <script src="project.js"></script>
+
+
+
+</body>
+
+</html>
